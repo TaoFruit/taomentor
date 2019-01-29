@@ -325,9 +325,9 @@
                 map:{
                     options:{
                         zoom: 4,
-                        mapTypeId: 'cosine_style',
+                        mapTypeId: 'Tao Mentor_style',
                         mapTypeControlOptions: {
-                            mapTypeIds: ['cosine_style', google.maps.MapTypeId.SATELLITE, google.maps.MapTypeId.HYBRID]
+                            mapTypeIds: ['Tao Mentor_style', google.maps.MapTypeId.SATELLITE, google.maps.MapTypeId.HYBRID]
                         },
                         scrollwheel: false
                     }
@@ -341,16 +341,16 @@
                             marker:{
                                 latLng:results[0].geometry.location,
                                 options:{
-                                    icon: 'http://themesflat.com/html/cosine/images/icon/marker.png'
+                                    icon: 'http://taomentor.com/html/Tao Mentor/images/icon/marker.png'
                                 }
                             }
                         });
                     }
                 },
                 styledmaptype:{
-                    id: "cosine_style",
+                    id: "Tao Mentor_style",
                     options:{
-                        name: "Cosine Map"
+                        name: "Tao Mentor Map"
                     }, 
                     styles: [
                         {
