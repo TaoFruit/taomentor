@@ -341,7 +341,7 @@
                             marker:{
                                 latLng:results[0].geometry.location,
                                 options:{
-                                    icon: 'http://taomentor.com/html/Tao Mentor/images/icon/marker.png'
+                                    icon: 'https://taomentor.com/images/icon/marker.png'
                                 }
                             }
                         });
