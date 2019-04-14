@@ -333,7 +333,7 @@
                     }
                 },
                 getlatlng:{
-                    address:  "66 Nicholson St Buffalo New York US",
+                    address:  "48 WALL STREET, NEW YORK, NY 10005",
                     callback: function(results) {
                         if ( !results ) return;
                         $(this).gmap3('get').setCenter(new google.maps.LatLng(results[0].geometry.location.lat(), results[0].geometry.location.lng()));
